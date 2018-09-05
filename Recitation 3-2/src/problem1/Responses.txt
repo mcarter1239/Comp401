@@ -1,0 +1,7 @@
+1.) What makes you say your code isn't working?
+	Output says that all students get added to COMP401, even though two have insufficient requirements and 1 has none of the requirements.
+2.) What did you expect your code to do and why?
+	The code should have outputted a class list of Pam Beasley, Andy Bernard, Jim Halpert, and Oscar Martinez.
+3.) What did your code do instead and why?
+	It added all students to COMP401.  (The problem was that student validation checked that every class the student had taken was part of the prereqs rather than checking that the student had taken every prereq.)
+

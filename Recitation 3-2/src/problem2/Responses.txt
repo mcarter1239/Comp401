@@ -1,0 +1,7 @@
+1.) What makes you say your code isn't working?
+	The initial output does not plot stars.
+2.) What did you expect your code to do and why?
+	I expect the code to create a new star map, plot three stars in it, print a text representation of the star map, remove a specific star from the map, then reprint the map with the star removed.  This is from following the main function.
+3.) What did your code do instead and why?
+	It did not create a star map (FIXED: this.height = height vs height = height and this.width = width vs width = width in constructor for star map).  When that was fixed it did not remove a star (FIXED: code was setting map[x][y] to zero instead of map[y][x]).
+

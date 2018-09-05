@@ -1,0 +1,8 @@
+1.) What makes you say your code isn't working?
+	An exception is thrown when attempting to type "?" for help.
+2.) What did you expect your code to do and why?
+	I expected the code to return some sort of help menu when "?" was entered. Also, I expect every option of the help menu to work.
+3.) What did your code do instead and why?
+	Threw an exception on "?" because the opts were being printed up to and including opts.length (out of bounds exception on the opts array).
+	Calls all functions including and after the one asked for by the user, instead of just the one asked for by the user because the switch statement did not have breaks.
+
